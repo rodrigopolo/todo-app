@@ -1,0 +1,21 @@
+{
+    "name": "rodrigopolo/gp",
+    "description": "Control de equipo",
+    "type": "app",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Rodrigo Polo",
+            "email": "rodrigo.polo@gmail.com"
+        }
+    ],
+    "require": {
+        "slim/slim": "2.6.*",
+        "gabordemooij/redbean": "4.2.*"
+    },
+    "autoload": {
+        "classmap": [
+            "app/lib"
+        ]
+    }
+}
